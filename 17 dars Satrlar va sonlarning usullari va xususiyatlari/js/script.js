@@ -25,6 +25,7 @@ ularning farqi method funksiya kabi () skopka bilan chaqirilsa, property esa sko
 // Number
 //const number = 8.8;
 //console.log(Math.round(number)); // consoleга 9 чикади округленияси
+console.log(Math.round(9.2));
 
 const borderWidth = "12px";
 console.log(parseInt(borderWidth)); // => string to number 12 chiqadi consolega
