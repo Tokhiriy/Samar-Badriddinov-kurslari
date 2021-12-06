@@ -25,7 +25,7 @@ function rememberNews() {
     const a = prompt("Ohirgi ko'rgan yangiliklaringizdan biri");
     const b = prompt("Unga qancha baho bergan bo'kardingiz?");
 
-    if (a != null && b != null && a != "" && b != "" && a.length < 50) {
+    if (a != null && /* b != null && */ a != "" && /* b != "" && */ a.length < 50) {
       personalNewsDB.news[a] = b; // news: {}, obyectining ключига a ни значениясига b ни беради.
       console.log("Tayyor");
     } else {
@@ -33,6 +33,7 @@ function rememberNews() {
       i--; // savol yana takrorlanadi
     }
   }
+
 }
 
 rememberNews();
