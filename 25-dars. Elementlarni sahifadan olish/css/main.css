@@ -1,0 +1,12 @@
+h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.cssh2 {
+  background-color: crimson;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
