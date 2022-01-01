@@ -1,0 +1,18 @@
+h1 {
+  color: aliceblue;
+}
+.btn {
+  display: inline-block;
+  background: blueviolet;
+  color: cornsilk;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.div {
+  width: 200px;
+  height: 200px;
+  background: chocolate;
+}
