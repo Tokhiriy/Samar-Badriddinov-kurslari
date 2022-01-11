@@ -1,0 +1,22 @@
+.crimson {
+  padding: 20px;
+  background-color: crimson;
+  width: 150px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.wrapper {
+  width: 300px;
+  height: 300px;
+  border: 2px solid gray;
+  margin: 20px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+}
