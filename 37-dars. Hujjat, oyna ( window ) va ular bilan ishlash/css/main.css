@@ -1,0 +1,19 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.box {
+  width: 400px;
+  height: 300px;
+  overflow: scroll;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: rgb(151, 242, 245);
+}
+
+button {
+  position: absolute;
+  left: 50%;
+}
